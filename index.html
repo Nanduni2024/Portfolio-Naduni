@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Nanduni Sanjana Wanniarachchi, an ICT Undergraduate, Full-Stack Developer, DevOps Enthusiast, and Research Project Contributor.">
+  <meta name="theme-color" content="#8b5cf6">
+  <title>Nanduni Sanjana Wanniarachchi | Creative UI/UX Engineer & Developer</title>
+  
+  <!-- Premium Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+  <!-- Preloader Screen -->
+  <div id="preloader">
+    <div class="loader-spinner"></div>
+    <div class="loader-text">Nanduni Sanjana Wanniarachchi</div>
+  </div>
+
+  <!-- Interactive Particles Canvas -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- Background Glowing Blobs -->
+  <div class="bg-aurora">
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+  </div>
+
+  <!-- Header Navigation -->
+  <header class="site-header" data-header>
+    <a class="brand" href="#home" aria-label="NSW Home">
+      <span class="brand-mark">NSW</span>
+      <span class="brand-text">Nanduni Sanjana</span>
+    </a>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="siteNav" data-menu-toggle aria-label="Toggle Navigation">
+      <i class="fa-solid fa-bars" aria-hidden="true"></i>
+    </button>
+
+    <nav id="siteNav" class="site-nav" aria-label="Primary navigation" data-nav>
+      <a href="#home" class="is-active">Home</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
+      <a href="#journey">Journey</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <!-- Main Bento Content Container -->
+  <main class="main-container" id="home">
+    <div class="bento-grid">
+      
+      <!-- Card 1: Identity & Hero -->
+      <section class="bento-panel card-hero">
+        <div class="hero-status">
+          <span class="panel-label">Digital Architect</span>
+          <div class="recruiter-badge" title="Recruiter Indicator">
+            <span class="badge-dot"></span>
+            <span>Open for Opportunities</span>
+          </div>
+        </div>
+        
+        <div class="hero-header">
+          <h1>Nanduni Sanjana Wanniarachchi</h1>
+          <p>Building Scalable Software, Intelligent Systems, and Digital Experiences. ICT undergraduate specializing in frontend UX, API middleware, and containerized deployments.</p>
+        </div>
+        
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#work">
+            <i class="fa-solid fa-folder-open" aria-hidden="true"></i>
+            View Projects
+          </a>
+          <a class="btn btn-secondary" href="assets/naduni-cv.pdf" download>
+            <i class="fa-solid fa-arrow-down-to-line" aria-hidden="true"></i>
+            Download CV
+          </a>
+          <a class="btn btn-secondary" href="#contact">
+            <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+            Contact Me
+          </a>
+        </div>
+      </section>
+
+      <!-- Card 2: Tech Orbit Avatar -->
+      <section class="bento-panel card-orbit">
+        <span class="panel-label">Tech Ecosystem</span>
+        
+        <div class="orbit-workspace">
+          <div class="orbit-circle-track"></div>
+          
+          <!-- Orbiting Tech Nodes -->
+          <div class="orbiting-node node-react" title="React / Next.js">
+            <i class="fa-brands fa-react" aria-hidden="true"></i>
+          </div>
+          <div class="orbiting-node node-laravel" title="Laravel / PHP">
+            <i class="fa-brands fa-laravel" aria-hidden="true"></i>
+          </div>
+          <div class="orbiting-node node-docker" title="Docker / Containerization">
+            <i class="fa-brands fa-docker" aria-hidden="true"></i>
+          </div>
+          <div class="orbiting-node node-python" title="Python / Automation">
+            <i class="fa-brands fa-python" aria-hidden="true"></i>
+          </div>
+          
+          <!-- Centered Profile Image -->
+          <div class="avatar-wrapper">
+            <img src="assets/images/profile.jpg" alt="Nanduni Sanjana Wanniarachchi" class="avatar-img">
+          </div>
+        </div>
+        
+        <div class="orbit-name">
+          <h3>Nanduni Sanjana Wanniarachchi</h3>
+          <p>Full-Stack Developer & Research Contributor</p>
+        </div>
+      </section>
+
+      <!-- Card 3: Animated Statistics Ribbon -->
+      <div class="bento-panel stats-ribbon">
+        <div class="stat-item">
+          <span class="stat-number">5+</span>
+          <span class="stat-label">Active Projects</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">ICT</span>
+          <span class="stat-label">Undergraduate</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">IEEE</span>
+          <span class="stat-label">Contributor</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">DevOps</span>
+          <span class="stat-label">Enthusiast</span>
+        </div>
+      </div>
+
+      <!-- Card 4: About Me -->
+      <section class="bento-panel card-about">
+        <span class="panel-label">Identity</span>
+        <h2>About Me</h2>
+        <div class="about-text">
+          <p style="margin-bottom: 0.8rem;">I am a Bachelor of Information and Communication Technology (BICT) undergraduate at the University of Vavuniya. I bridge the gap between creative visual designs and dependable system structures, practicing containerized deployment schemas and database optimizations.</p>
+          <p>I thrive on research project contribution, finding ways to make IoT architectures and log databases accessible, secure, and visually insightful for users and system administrators alike.</p>
+        </div>
+        <div class="about-objective">
+          Career Objective: <strong>HexSoftwares PVT LTD Company Internship</strong> to apply system automation principles, and implement premium user interfaces.
+        </div>
+      </section>
+
+      <!-- Card 5: Technical Skills -->
+      <section class="bento-panel card-skills" id="skills">
+        <span class="panel-label">Capabilities</span>
+        <h2>Technical Skills</h2>
+        
+        <div class="skills-wrapper">
+          <div class="skills-category-group">
+            <h3>Frontend Development</h3>
+            <div class="skills-tags">
+              <span class="skill-tag"><i class="fa-brands fa-react" aria-hidden="true"></i> React</span>
+              <span class="skill-tag"><i class="fa-solid fa-n" aria-hidden="true"></i> Next.js</span>
+              <span class="skill-tag"><i class="fa-brands fa-square-js" aria-hidden="true"></i> JavaScript</span>
+              <span class="skill-tag"><i class="fa-brands fa-html5" aria-hidden="true"></i> HTML5</span>
+              <span class="skill-tag"><i class="fa-brands fa-css3-alt" aria-hidden="true"></i> CSS3</span>
+            </div>
+          </div>
+
+          <div class="skills-category-group">
+            <h3>Backend Engineering</h3>
+            <div class="skills-tags">
+              <span class="skill-tag"><i class="fa-brands fa-php" aria-hidden="true"></i> PHP</span>
+              <span class="skill-tag"><i class="fa-brands fa-laravel" aria-hidden="true"></i> Laravel</span>
+              <span class="skill-tag"><i class="fa-brands fa-node-js" aria-hidden="true"></i> Node.js</span>
+              <span class="skill-tag"><i class="fa-solid fa-gears" aria-hidden="true"></i> REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skills-category-group">
+            <h3>Database & Storage</h3>
+            <div class="skills-tags">
+              <span class="skill-tag"><i class="fa-solid fa-database" aria-hidden="true"></i> PostgreSQL</span>
+              <span class="skill-tag"><i class="fa-solid fa-table" aria-hidden="true"></i> MySQL</span>
+            </div>
+          </div>
+
+          <div class="skills-category-group">
+            <h3>DevOps & Systems</h3>
+            <div class="skills-tags">
+              <span class="skill-tag"><i class="fa-brands fa-docker" aria-hidden="true"></i> Docker</span>
+              <span class="skill-tag"><i class="fa-brands fa-linux" aria-hidden="true"></i> Linux</span>
+              <span class="skill-tag"><i class="fa-brands fa-git-alt" aria-hidden="true"></i> Git</span>
+              <span class="skill-tag"><i class="fa-brands fa-github" aria-hidden="true"></i> GitHub</span>
+              <span class="skill-tag"><i class="fa-solid fa-rotate" aria-hidden="true"></i> CI/CD</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Section Title for Selected Work -->
+      <div class="work-header" id="work">
+        <div>
+          <span class="panel-label">Projects Portfolio</span>
+          <h2>Featured Projects</h2>
+        </div>
+        <div class="filter-bar" aria-label="Project Filtering" style="display: flex; gap: 0.5rem;">
+          <button class="filter-btn is-active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="web">Web</button>
+          <button class="filter-btn" data-filter="data">Data</button>
+          <button class="filter-btn" data-filter="systems">Systems</button>
+        </div>
+      </div>
+
+      <!-- Project Cards -->
+      <!-- Project 1: Cattle Tracking (Large) -->
+      <article class="bento-panel project-card project-card-large" data-category="data">
+        <div class="project-thumbnail">
+          <i class="fa-solid fa-cow" aria-hidden="true"></i>
+          <div class="thumbnail-glow-card">
+            <span class="project-badge">Research Project</span>
+            <span style="font-size: 0.72rem; color: var(--accent);">DB Admin & Full-Stack</span>
+          </div>
+        </div>
+        
+        <div class="project-details">
+          <div class="project-category-row">
+            <span>Research Project | Role: DBA & Contributor</span>
+            <div class="proj-links-grid">
+              <a href="https://moomap.app" target="_blank" class="proj-icon-link" title="Live Project"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>MooMap Smart Cattle Tracking System</h3>
+            <p>IoT-based smart livestock tracking platform developed for monitoring cattle locations and activities. Designed scalable PostgreSQL database architecture, dashboards, and API integration.</p>
+            <div style="font-size: 0.75rem; color: var(--accent); margin-bottom: 0.8rem; display: flex; gap: 0.8rem; flex-wrap: wrap; font-weight: 600;">
+              <span><i class="fa-solid fa-trophy" style="margin-right: 0.2rem;"></i> IEEE FYP Arena Finalist</span>
+              <span><i class="fa-solid fa-flask" style="margin-right: 0.2rem;"></i> IEEE EMBS BioFusion Exhibition</span>
+            </div>
+          </div>
+          <div class="project-tech-tags">
+            <span>React</span>
+            <span>PostgreSQL</span>
+            <span>Docker</span>
+            <span>REST APIs</span>
+            <span>IoT</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 2: SecureMate Dashboard -->
+      <article class="bento-panel project-card" data-category="web">
+        <div class="project-thumbnail">
+          <i class="fa-solid fa-key" aria-hidden="true"></i>
+          <div class="thumbnail-glow-card">
+            <span class="project-badge">Security Dashboard</span>
+            <span style="font-size: 0.72rem; color: var(--accent);">Active REST APIs</span>
+          </div>
+        </div>
+        
+        <div class="project-details">
+          <div class="project-category-row">
+            <span>Security Monitoring Dashboard</span>
+            <div class="proj-links-grid">
+              <a href="https://secure-mate.vercel.app/" target="_blank" class="proj-icon-link" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>SecureMate</h3>
+            <p>Modern security monitoring and management platform featuring authentication, role-based access control, alert systems, and real-time dashboards.</p>
+          </div>
+          <div class="project-tech-tags">
+            <span>React</span>
+            <span>JavaScript</span>
+            <span>REST APIs</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 3: ProdTrack CMS -->
+      <article class="bento-panel project-card" data-category="web">
+        <div class="project-thumbnail">
+          <i class="fa-solid fa-file-pen" aria-hidden="true"></i>
+          <div class="thumbnail-glow-card">
+            <span class="project-badge">CMS Platform</span>
+            <span style="font-size: 0.72rem; color: var(--accent);">Workflow Admin</span>
+          </div>
+        </div>
+        
+        <div class="project-details">
+          <div class="project-category-row">
+            <span>Content Management Platform</span>
+            <div class="proj-links-grid">
+              <a href="https://prod-track-main-ln3o.vercel.app/" target="_blank" class="proj-icon-link" title="Live Demo"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>ProdTrack</h3>
+            <p>Admin-only article publishing and content management system with dashboard analytics, CRUD operations, and workflow management.</p>
+          </div>
+          <div class="project-tech-tags">
+            <span>React</span>
+            <span>Node.js</span>
+            <span>Dashboard UI</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 4: Linux Log Analyzer -->
+      <article class="bento-panel project-card" data-category="systems">
+        <div class="project-thumbnail">
+          <i class="fa-solid fa-terminal" aria-hidden="true"></i>
+          <div class="thumbnail-glow-card">
+            <span class="project-badge">Security Tool</span>
+            <span style="font-size: 0.72rem; color: var(--accent);">Syslog Parser</span>
+          </div>
+        </div>
+        
+        <div class="project-details">
+          <div class="project-category-row">
+            <span>Linux Security Tool</span>
+            <div class="proj-links-grid">
+              <a href="https://github.com/Nanduni2024/linux-log-analyzer" target="_blank" class="proj-icon-link" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>Linux Log Analyzer</h3>
+            <p>Linux-based log analysis tool that automates log monitoring, detects patterns, and generates reports for troubleshooting and security analysis.</p>
+          </div>
+          <div class="project-tech-tags">
+            <span>Python</span>
+            <span>Linux</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Project 5: System Health Checker -->
+      <article class="bento-panel project-card" data-category="systems">
+        <div class="project-thumbnail">
+          <i class="fa-solid fa-gauge-high" aria-hidden="true"></i>
+          <div class="thumbnail-glow-card">
+            <span class="project-badge">Monitoring Tool</span>
+            <span style="font-size: 0.72rem; color: var(--accent);">Resource tracking</span>
+          </div>
+        </div>
+        
+        <div class="project-details">
+          <div class="project-category-row">
+            <span>System Monitoring Tool</span>
+            <div class="proj-links-grid">
+              <a href="https://github.com/Nanduni2024/Smart-System-Health-Checker" target="_blank" class="proj-icon-link" title="GitHub Repo"><i class="fa-brands fa-github"></i></a>
+            </div>
+          </div>
+          <div>
+            <h3>Smart System Health Checker</h3>
+            <p>System administration utility that monitors CPU usage, memory consumption, disk utilization, and overall machine health.</p>
+          </div>
+          <div class="project-tech-tags">
+            <span>Python</span>
+            <span>Linux</span>
+          </div>
+        </div>
+      </article>
+
+      <!-- Card 6: Achievements -->
+      <section class="bento-panel card-achievements">
+        <span class="panel-label">Milestones</span>
+        <h2>Featured Achievements</h2>
+        
+        <div class="achievements-grid">
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-trophy" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>IEEE FYP Arena Finalist</h4>
+              <p>Recognized as a finalist in the Final Year Project showcase category.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-award" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>IEEE EMBS BioFusion Exhibition</h4>
+              <p>Contributed bio-medical data insights and system setups for project exhibition.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-code" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>ALGOARENA Competition Participant</h4>
+              <p>Competed in coding challenges focusing on advanced data structures and quick algorithms.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-medal" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>Yarl Dreamin 2025 Top 6 Team</h4>
+              <p>Placed within the top 6 teams for cloud integration and product solution pitching.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-ranking-star" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>IEEE LadyProto 1.0 First Runner-Up</h4>
+              <p>Achieved 2nd place overall in the prototype design hackathon event.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-users-gear" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>IEEE DevSprint Design Team Lead</h4>
+              <p>Directed layout design asset teams for marketing, web UI, and sprint documentation.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-compass-drafting" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>IEEE AI-Verse 2.0 Design Lead</h4>
+              <p>Led visual design concepts, landing page UX guidelines, and event aesthetics.</p>
+            </div>
+          </div>
+
+          <div class="achievement-tile">
+            <div class="achievement-icon">
+              <i class="fa-solid fa-handshake-angle" aria-hidden="true"></i>
+            </div>
+            <div class="achievement-details">
+              <h4>Resume Spotlight Volunteer</h4>
+              <p>Offered formatting and review guidance for student developer portfolios.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card 7: Certifications Wall -->
+
+      <!-- Card 8: Journey Timeline -->
+      <section class="bento-panel card-journey" id="journey">
+        <span class="panel-label">Path</span>
+        <h2>My Journey</h2>
+        
+        <div class="journey-timeline">
+          <div class="journey-node">
+            <div class="journey-year">2021</div>
+            <div class="journey-title">Started Software Engineering Diploma</div>
+            <p class="journey-desc">Java Institute for Advanced Technology, building foundations in Object-Oriented programming and structural systems.</p>
+          </div>
+
+          <div class="journey-node">
+            <div class="journey-year">2023</div>
+            <div class="journey-title">BICT Undergraduate @ Vavuniya</div>
+            <p class="journey-desc">Admitted to University of Vavuniya. Focused on system architecture, database modeling, and team delivery methodologies.</p>
+          </div>
+
+          <div class="journey-node">
+            <div class="journey-year">2025</div>
+            <div class="journey-title">Research projects</div>
+            <p class="journey-desc">Supported cattle tracking research as database administrator.</p>
+          </div>
+
+          <div class="journey-node">
+            <div class="journey-year">2026</div>
+            <div class="journey-title">HexSoftwares Frontend Internship (One Month)</div>
+            <p class="journey-desc">Looking to join a collaborative environment, Completed Web Internship at HexSoftwares Pvt Ltd. </p>
+          </div>
+
+          <div class="journey-node">
+            <div class="journey-year">2026</div>
+            <div class="journey-title">Decode Labs Internship (One Month)</div>
+            <p class="journey-desc">Ongoing Full-Stack Internship at Decode Labs Pvt Ltd. Focused on developing responsive web applications, developing backend APIs, and collaborating with cross-functional teams.</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Card 9: High-Fidelity Contact Section -->
+      <section class="bento-panel card-contact" id="contact">
+        <span class="panel-label">Connection</span>
+        <h2>Start a Project</h2>
+        <p>Drop a message regarding full-stack work, internship openings, or development inquiries.</p>
+        
+        <div class="contact-layout">
+          <div class="contact-channels">
+            <a href="mailto:naduniwanniarachchi919@gmail.com" class="contact-item" aria-label="Send Email">
+              <div class="contact-icon"><i class="fa-solid fa-envelope" aria-hidden="true"></i></div>
+              <div class="contact-info-text">
+                <span>Email Address</span>
+                <strong>naduniwanniarachchi919@gmail.com</strong>
+              </div>
+            </a>
+            
+            <a href="tel:+94701447697" class="contact-item" aria-label="Call Me">
+              <div class="contact-icon"><i class="fa-solid fa-phone" aria-hidden="true"></i></div>
+              <div class="contact-info-text">
+                <span>Phone Call</span>
+                <strong>+94 70 144 7697</strong>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/naduni-wanniarachchi-007b64297" target="_blank" class="contact-item" aria-label="LinkedIn Profile">
+              <div class="contact-icon"><i class="fa-brands fa-linkedin-in" aria-hidden="true"></i></div>
+              <div class="contact-info-text">
+                <span>LinkedIn</span>
+                <strong>naduni-wanniarachchi...</strong>
+              </div>
+            </a>
+
+            <a href="https://github.com/Nanduni2024" target="_blank" class="contact-item" aria-label="GitHub Profile">
+              <div class="contact-icon"><i class="fa-brands fa-github" aria-hidden="true"></i></div>
+              <div class="contact-info-text">
+                <span>GitHub</span>
+                <strong>github.com/Nanduni2024</strong>
+              </div>
+            </a>
+          </div>
+
+          <form class="contact-box-form" id="contactForm">
+            <div class="form-inputs-row">
+              <div class="input-box">
+                <label for="formName">Your Name</label>
+                <input type="text" id="formName" name="name" class="form-field" placeholder="E.g., Taylor" required>
+              </div>
+              <div class="input-box">
+                <label for="formEmail">Email Address</label>
+                <input type="email" id="formEmail" name="email" class="form-field" placeholder="you@domain.com" required>
+              </div>
+            </div>
+            
+            <div class="input-box">
+              <label for="formSubject">Subject</label>
+              <input type="text" id="formSubject" name="subject" class="form-field" placeholder="Project details, hiring..." required>
+            </div>
+            
+            <div class="input-box">
+              <label for="formMessage">Message</label>
+              <textarea id="formMessage" name="message" class="form-field" placeholder="What are you building?" required></textarea>
+            </div>
+            
+            <button class="btn btn-primary" type="submit" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane" aria-hidden="true"></i> Dispatch Message
+            </button>
+          </form>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="main-container" style="margin: 0 auto; width: 90%;">
+      <p>&copy; 2026 Nanduni Sanjana Wanniarachchi. Designed & Developed for UI/UX Excellence. Ready for Vercel.</p>
+    </div>
+  </footer>
+
+  <!-- Script Files -->
+  <script src="js/script.js"></script>
+</body>
+</html>
